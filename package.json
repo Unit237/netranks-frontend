@@ -1,0 +1,51 @@
+{
+  "name": "netranks",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "nvm": "nvm use 24.3.0",
+    "dev": "vite --force",
+    "build": "vite build",
+    "deploy": "npx swa",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "@mui/x-charts": "^8.6.0",
+    "@mui/x-data-grid": "^8.6.0",
+    "@mui/x-date-pickers": "^8.6.0",
+    "@mui/x-tree-view": "^8.6.0",
+    "@react-spring/web": "^10.0.1",
+    "@stripe/react-stripe-js": "^3.9.1",
+    "@stripe/stripe-js": "^7.8.0",
+    "axios": "^0.19.2",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.13",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-helmet": "^6.1.0",
+    "react-markdown": "^10.1.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-router-dom": "^7.6.3",
+    "remark-gfm": "^4.0.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^2.0.6",
+    "@eslint/js": "^9.29.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "vite": "^7.0.0"
+  }
+}
